@@ -76,5 +76,21 @@ body{
 /* layanan style */
 #our-service{
     height: 100vh;
+
+}
+.container-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    background-color:#fff;
+}
+.card-layanan{
+    height: 313px;
+    padding: 40px;
+    background: linear-gradient(160deg, var(--pr-hijau),#000000e4);
+    border-radius: 5px;
 }
 /* end layanan */
