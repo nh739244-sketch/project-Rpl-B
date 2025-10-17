@@ -123,10 +123,37 @@ body{
     transition: 0.8s ease;
     border-radius: 8px;
 }
-.card-layanan:hover .container-img{
-    background-color: #fff;
+.card-layanan:hover h4{
+    color: #fff;
+    transition: all 0.1s ease-in;
 }
-.kaa{
-    color: var(--pr-hijau);
+.card-layanan:hover p{
+    color:#048853;
+    transition: all 0.1s ease-in;
 }
+.Rafka-kasep{
+    color: green;
+}
+
+/* end hover card */
 /* end layanan */
+
+/* style temukan rumah */
+#temukan-rumah {
+    height: 100vh;
+    background-image: url(image/group\ 1.png);
+    background-repeat:no-repeat ;
+    background-size:100% ;
+    background-position: center;
+}
+.tmk-rumah{
+    font-size: 38px;
+    font-weight: 700;
+    color:#fff;
+    margin-top: 140px;
+}
+.sub-tmk-rmh{
+    font-weight: 400;
+    color:#fff;
+}
+/* end style temukan rumah  */
