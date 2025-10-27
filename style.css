@@ -1,4 +1,4 @@
-root{
+:root{
     --pr-hijau: #048853;
 }
 body{
@@ -147,7 +147,7 @@ p{
 .card-layanan:hover p{
     color: #fff;
     transition: all 0.1s ease-in;
-.}
+}
 /* end hover card */
 /* end layanan */
 
@@ -196,4 +196,26 @@ p{
     font-weight: 400;
     transition: all 0.3s ease-in;
 }
-/* end style temukan rumah *
+.input-group{
+   height: 88px;
+   background-color: rgba(255, 255, 255, 0.8);
+   border-radius: 0 0 0 10px;
+}
+.btn-cari{
+    width: 135px;
+    height: 100%;
+    border: none;
+    background-color: var(--pr-hijau);
+    font-size: 36px;
+    font-family: 500;
+    color: #fff;
+}
+.btn-search{
+    border: none;
+    background-color:transparent;
+    color: var(--pr-hijau);
+    font-size: 18px;
+    font-weight: 400;
+    border-radius: 10px;
+}
+/* end style temukan rumah */
