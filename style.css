@@ -85,8 +85,8 @@ body{
     width: 100%;
 }
 h1{
-    font-size: 48px;
-    font-weight: 700;
+    font-size: 45px;
+    font-weight: 600;
     color: var(--pr-hijau);
 }
 p{
@@ -236,3 +236,47 @@ p{
     color: var(--pr-hijau);
 }
 /* end style temukan rumah */
+/* style rekomendasi rumah */
+#rekomendasi{
+  height:vh150;
+}
+.card-rek{
+    height: 489px;
+    width: 380px;
+    background-color:#ffffff;
+    border-radius: 5px;
+}
+.card-rek:hover{
+    background-color: #048853;
+    transition: 0.8 ease;
+}
+.card-gbr{
+    height: 280px;
+}
+.idr{
+    font-size: 24px;
+    font-weight: 600;
+    color: #000;
+}
+.jl{
+    font-size: 14px;
+    font-weight: 400;
+}
+.fasilitas{
+    height: 67px;
+    background-color: #fff;
+}
+.sub-fsi{
+    font-size: 12px;
+    font-weight: 400;
+}
+.Pr{
+    color: var(--pr-hijau);
+}
+.c{
+    color:gold;
+}
+.jrk{
+    height: 100px;
+}
+/* end style rekomendasi rumah */
