@@ -1,42 +1,44 @@
 :root{
-    --pr-hijau: #048853;
+    --pr-hijau:#048853;
 }
+
+
 body{
-    font-family:"Poppins";
-    background-color: #e5e5e5;
+    font-family: "Poppins";
+    background-color: #E5E5E5 ;
 }
+
 .navbar{
     z-index: 3;
 }
 *{
     z-index: 2;
 }
-.accent-benner{
+.accent-banner{
     z-index: 1;
-
-    }
-.navbar-brand{
- font-size: 20px;
- font-weight: 700;
-
 }
+
 /* navbar style */
+.navbar-brand{
+    font-size: 20px;
+    font-weight: 700;
+}
 .nav-link.active{
     font-size: 16px;
-    font-weight:700;
+    font-weight: 700;
 }
 .nav-link{
-
     font-size: 16px;
     font-weight: 400;
 }
-.btn-Masuk{
+.btn-masuk{
     width: 133px;
     height: 40px;
-    background-color: aliceblue;
+    background-color: #fff;
     border: none;
+    font-size: 16px;
     font-weight: 700;
-    color: var(--pr-hijau)
+    color: var(--pr-hijau);
 }
 .btn-daftar{
     width: 133px;
@@ -44,13 +46,12 @@ body{
     background-color: transparent;
     border: none;
     font-size: 16px;
-    font-weight:400;
-    color:aliceblue;
-
+    font-weight: 400;
+    color:#fff;
 }
 /* navbar end */
 
-/* style hero */
+/* style hero  */
 #hero{
     background: linear-gradient(160deg, var(--pr-hijau), #000);
     height: 100vh;
@@ -58,26 +59,30 @@ body{
 .text-hero h1{
     font-size: 50px;
     font-weight: 700;
-    color:#fff;
+    color: #fff;
     line-height: 70px;
 }
+
 .text-hero p{
     font-size: 16px;
     font-weight: 400;
-    color: white;
+    color: #fff;
     line-height: 30px;
-    width: 85%;
+    width:75%;
 }
+
 .btn-lg{
     width: 237px;
     height: 70px;
     font-size: 16px;
     font-weight: 700;
-    background-color: white;
+    background-color: #fff;
     color: var(--pr-hijau);
-    border: none;
+    border:none;
 }
-/* end  */
+
+
+/* end style hero */
 
 /* layanan style */
 #our-service{
@@ -85,8 +90,8 @@ body{
     width: 100%;
 }
 h1{
-    font-size: 45px;
-    font-weight: 600;
+    font-size: 48px;
+    font-weight: 700;
     color: var(--pr-hijau);
 }
 p{
@@ -101,7 +106,6 @@ p{
     padding: 40px;
     transition: all 0.1s ease-in;
 }
-
 .container-img{
     height: 70px;
     width: 70px;
@@ -109,21 +113,12 @@ p{
     border-radius: 50%;
     transition: all 0.1s ease-in;
 }
-
 .card-layanan h4{
     font-size: 24px;
     font-weight: 500;
     color:var(--pr-hijau);
     transition: all 0.1s ease-in;
 }
-
-.btn-Masuk:hover{
-    background: var(--pr-hijau);
-    color:white;
-    transition: 0.9s ease;
-    border-radius: 9px;
-}
-
 .card-layanan p{
     font-size: 14px;
     font-weight: 400;
@@ -158,24 +153,24 @@ p{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    padding-top: 110px;
 }
-.ka{
-    color: #fff;
+.tmk-rumah{
+    font-size: 48px;
     font-weight: 700;
-    font-size: 38px;
-    margin-top: 100px;
-    margin-bottom: 1%;
+    color:#fff ;
 }
 .sub-tmk-rmh{
+    font-size: 18px;
     color: #fff;
-    font-weight: 400;
-    margin-bottom: 0%;
 }
+
+
 .btn-tab{
-    height: 42px;
-    color: var(--pr-hijau);
+    height: 42px;   
+    color: #000;
     background-color: rgb(255,255,255, 0.5);
-    border: none;
+    border:none;
     padding: 10px 20px;
     font-size: 18px;
     font-weight: 400;
@@ -186,20 +181,22 @@ p{
 .property{
     border-radius: 0 10px 0 0;
 }
+
 .btn-tab.active{
-    height: 42px;
-    color: var(--pr-hijau);
-    background-color: rgba(255, 255, 255, 0.8);
-    border: none;
+    height: 42px;   
+    color:var(--pr-hijau);
+    background-color: #fff;
+    border:none;
     padding: 10px 20px 10px 20px;
     font-size: 18px;
     font-weight: 400;
+
     transition: all 0.3s ease-in;
 }
 .input-group{
-   height: 88px;
-   background-color: rgba(255, 255, 255, 0.8);
-   border-radius: 0 0 0 10px;
+    height: 88px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 0 0 0 10px;
 }
 .btn-cari{
     width: 135px;
@@ -213,70 +210,112 @@ p{
 .btn-search{
     width: 200px;
     border: none;
-    background-color:transparent;
+    background-color: transparent;
     color: var(--pr-hijau);
     font-size: 18px;
     font-weight: 400;
     border-radius: 10px;
-    border-right:solid 2px #fff ;
+    border-right: solid 2px #fff;
 }
-.nav-tabs{
+.nav-tab{
     border: none;
 }
 .form-control{
-    border: none;
-    background-color:transparent ;
-
+border: none;
+background-color: transparent;
 }
 .form-control::placeholder{
     color: var(--pr-hijau);
 }
 .form-control:focus{
-    box-shadow: 1px 1px 5px 1px var(--pr-hijau);
+    box-shadow:1px 1px 5px 1px var(--pr-hijau);
     color: var(--pr-hijau);
 }
-/* end style temukan rumah */
-/* style rekomendasi rumah */
-#rekomendasi{
-  height:vh150;
+/* end style  temukan rumah */
+ 
+/*  style  rekomendasi  rumah */
+.card{
+    height: 460px;
+    border: none;
 }
-.card-rek{
-    height: 489px;
-    width: 380px;
-    background-color:#ffffff;
-    border-radius: 5px;
-}
-.card-rek:hover{
-    background-color: #048853;
-    transition: 0.8 ease;
-}
-.card-gbr{
-    height: 280px;
-}
-.idr{
+.card-body h4{
     font-size: 24px;
-    font-weight: 600;
-    color: #000;
+    font-weight: 500;
+    line-height: .8rem;
 }
-.jl{
+.card-body p{
     font-size: 14px;
     font-weight: 400;
 }
-.fasilitas{
-    height: 67px;
-    background-color: #fff;
+.card-fasilitas{
+    font-size: 14px;
+    font-weight: 400;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 10px;
 }
-.sub-fsi{
+.card-fasilitas p{
     font-size: 12px;
     font-weight: 400;
 }
-.Pr{
-    color: var(--pr-hijau);
+.card:hover{
+    background:linear-gradient(160deg, var(--pr-hijau), #05b46e,#000);
 }
-.c{
-    color:gold;
+.card:hover .card-body h4{
+    color: #fff;
 }
-.jrk{
-    height: 100px;
+.card:hover .card-body p{
+    color: #fff;
 }
-/* end style rekomendasi rumah */
+.card:hover .card-fasilitas{
+background-color: #fff;
+}
+/* end style  rekomendasi  rumah */
+
+/* style fitur  */
+.btn-lihat{
+    border: none;
+    background-color: var(--pr-hijau);
+    font-size: 20px;
+    font-weight: 500;
+    color:#fff;
+    width: 238px;
+    border-radius: 3px;
+}
+.overlay h6{
+    font-size: 24px;
+    font-weight: 500;
+    color: #fff;
+}
+
+.overlay span{
+    font-size: 14px;
+    font-weight: 400;
+    color: #fff;
+}
+.btn lr{
+    border: none;
+    background-color: var(--pr-hijau);
+    border-radius: 3px;
+    width: 150px;
+    height: 45px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #fff;
+
+}
+.card-fitur{
+    width: 340px;
+    height: 480px;
+    
+}
+.overlay{
+    background:rgba(0, 0, 0, 0.5)
+    
+}
+.card-fitur .overlay:hover{
+    opacity: 1;
+    transition: all ease-in-out .3s;
+}
+/* end style fitur  */
