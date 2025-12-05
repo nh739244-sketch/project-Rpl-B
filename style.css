@@ -311,8 +311,8 @@ background-color: #fff;
     
 }
 .overlay{
-    background:rgba(0, 0, 0, 0.5)
-    
+    background:rgba(0, 0, 0, 0.5);
+     opacity: 0;
 }
 .card-fitur .overlay:hover{
     opacity: 1;

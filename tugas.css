@@ -1,9 +1,15 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
 body{
 background-color: #f5f7fb;
 }
 
 .navbar{
   background-color: rgb(223, 223, 223);
+  height: auto;
 }
 
 .navbar-brand{
@@ -12,17 +18,246 @@ background-color: #f5f7fb;
   text-decoration: none;
 }
 
+
+
 .text-betmen{
 font-size: 60px;
 }
-
 
 .img-shadow {
   box-shadow: 0 10px 20px rgba(0,0,0,0.2);
   border-radius: 15px;
 }
 
+.pertanyaan{
+  
+    padding-top: 50px;
+  
+}
+
+.pertanyaan .container .box {
+  width: 250px;
+  height: 284px  ;
+  padding: 50px; 
+  margin: 10px; 
+  background-color: white; 
+  border-radius: 10px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  
+}
+
+.pertanyaan .p {
+  margin-top: 30px;
+}
+
+.pertanyaan .bio {
+  margin-top: 20px;
+}
+
+.text-hero{
+ font-size: 65px;
+}
+.box img {
+  width: 50px;
+  margin-bottom: 10px;
+}
+
+.fasilitas h4{
+  font-size: 15px;
+  font-weight: bold;
+}
+.fasilitas p{
+  font-size: 14px;
+}
+
 .profil{
-  background-color: blue;
+  padding-top: 100px;
+}
+
+.profil .container{
+  margin-top: 50px;
+}
+
+.profil .container .teks{
+  margin-top: 50px;
+
+}
+
+.profil .container .btn{
+  margin-top: 30px;
+
+}
+.jurusan{
+  padding-top: 100px;
+}
+
+.jurusan .box{
+  background-color: #362FD9; 
+  padding: 40px;
+  padding-top: 25px;
+  height: 200px;
+
+  width: 291px;
+  margin: 10px;
+   border-radius: 10px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+ .icon-container .icon{
+  background-color: white;
+  border-radius: 5px;
+  padding: 10px;
+  
+  
+}
+
+.icon{
+ margin-top: -40px;
+ margin-left: -20px;
+ 
+}
+
+.title{
+  margin-top: 30px;
+ margin-left: -20px;
+ color: white;
+ margin-bottom: -10px;
+}
+
+.details{
+  color: white;
+  margin-top: 35px;
+  margin-left: -20px;
+}
+
+.detail{
+   color: white;
+  margin-top: 55px;
+  margin-left: -20px;
+}
+
+.jurusan .try{
+  color: white;
+  margin-top: 55px;
+  margin-left: -20px;
+  
+}
+
+#ekstrakuler{
+  padding-top: 100px;
+  background-color: #F0EFFF;
+  
+}
+
+#ekstrakuler .box{
+  background-color: white;
+  padding: 30px;
+  width:260px;
+  height: 240px;
+  border-radius: 10px;
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+   margin: 10px;
+
+}
+
+.nama{
+  margin-left: -10px;
+}
+
+.keterangan{
+   margin-left: -10px;
+}
+
+.detail2{
+  margin-left: -10px;
+  color: #DBDBDB;
+  font-size: 15px;
+}
+
+.icon2{
+  margin-left: -10px;
+  
+}
+
+#berita{
+ padding-top: 100px;
+}
+
+.kartu{
+  background-color: white;
+  height: 275px;
+  border-radius: 10px;
+  margin-top: 30px;
+  
+}
+
+#berita img{
+  width: 260px;
+}
+
+.tanggal{
+  
+  color: #DBDBDB;
+  font-size: 10px;
+  margin-top: 7px;
+  margin-left: 10px;
+}
+
+.t{
+  font-size: 14px;
+   margin-left: 10px;
+   margin-top: -12px;
+}
+
+.b{
+   color: #DBDBDB;
+  font-size: 10px;
+  margin-top: -12px;
+  margin-left: 10px;
+}
+
+.kartu a{
+  font-size: 10px;
+  width: 104px;
+  height: 12px;
+  margin-left: 10px;
+  margin-top: 5px;
+  display: flex;
+  justify-content: start;
+
+  
+}
+
+#berita .btn{
+  width: 200px;
+  margin-top: 50px;
+  margin-bottom: 150px;
+}
+
+#dokumentasi{
   height: 100vh;
+  background-color: #362FD9;
+}
+ .heading{
+ padding-top: 50px;
+
+}
+
+.card2{
+  height: 384px;
+  width: 318px;
+  background-color: white;
+  border-radius: 100px;
+ margin-top: 20px;
+ margin-right: 20px;
+ margin-left: 20px;
+}
+
+.overplay{
+  background-color: rgba(255, 255, 255, 0.80);
+  padding-left: 30px;
+  padding-top: 30px;
+  width: 318px;
+  height: 190px;
+  
 }
